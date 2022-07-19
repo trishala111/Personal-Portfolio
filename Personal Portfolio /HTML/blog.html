@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trishala Prasai</title>
+  <link rel="stylesheet" href="../CSS/External CSS/style.css">
+  <style>
+    /*styles of blog*/
+    .blog {
+      width: 50%;
+      margin: auto;
+      background-color: rgb(177, 177, 177);
+      padding: 20px;
+    }
+
+    /*styles of body h5*/
+    body h5 {
+      color: rgb(44, 24, 20);
+      font-size: 20px;
+      font-weight: bolder;
+      line-break: auto;
+    }
+
+    /*styles of body h1*/
+    body h1 {
+      color: rgb(29, 18, 17);
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 0px;
+    }
+
+    /*styles of body img*/
+    body img {
+      margin: auto;
+      width: 100%;
+      height: 400px;
+      display: none;
+    }
+
+    /*styles of body*/
+    body {
+      background-color: rgb(0, 0, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar contents-->
+  <nav class="navbar">
+    <ul>
+      <li><a href="../home.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="research.html">Research</a></li>
+    </ul>
+  </nav>
+  <!--Main contents of webpage-->
+  <!--div for blog-->
+  <div class="blog">
+    <h1>Impact and Use of Technology In Our Daily Life.</h1>
+    <h5>May 25,2021</h5>
+    <img src="../Images/Technology2.jpeg" alt="Technology" id="1">
+    <img src="../Images/Technology1.jpeg" alt="Technology" id="2">
+    <button style="margin-left:300px;padding:10px; color: rgb(179, 53, 24); background-color: cornsilk;"
+      onclick="Change()">Change</button>
+    <p>Technology is about more than just gadgets and gizmos. Technology's role and impact in both our personal and
+      professional lives is expanding all the time. Understanding how people shape technology and how technology shapes
+      people's interactions with each other and the natural world is important not only for those who research, develop,
+      and implement new technologies but also for all those people and organizations who use them. Technology is
+      concerned with understanding how knowledge is creatively applied to organized tasks involving people and machines
+      in order to achieve long-term goals.
+      <br>
+      <br>
+      In this pandemic technology is only the way we contact our friends and family. It helps us to learn and share
+      different new things from websites which has made our life easier. Technology entails doing things in a systematic
+      manner. Technology is about taking action to meet a human need rather than simply understanding how the natural
+      world works, which is the goal of science. The development of the microscope. It employs far more than scientific
+      knowledge, incorporating values as well as facts, practical craft knowledge as well as theoretical knowledge. The
+      iPod is an example of how the physics of packing so much music into such a small device combined with creative
+      design to create an iconic must-have accessory. It addresses the intended and unintended interactions between
+      products (machines, devices, artifacts) and the people and systems who create, use, or are affected by them via
+      various processes. Many people enjoy drinking coffee, which they usually do in a coffee shop. That coffee could
+      have come from trees that were bred specifically for higher yields. The harvested coffee beans will be transported
+      around the world to be processed and packaged before being distributed to shops, which will then make the cup of
+      coffee in a polystyrene cup that was manufactured for the purpose but will then be discarded, and so on. Every
+      decision we make is based on and feeds a highly interdependent and far-reaching way of life in which some have a
+      lot and some have a lot less. Technology is a hands-on, do-it-yourself profession that requires people to be
+      skilled in many areas, including engineering, communication, design, development, innovating, managing,
+      manufacturing, modeling, and systems thinking. However, technology also provides us with a variety of products
+      that can be used for good or ill, or where the benefits are debatable, and the processes involved in producing and
+      using technology mean that we should all be concerned about whether it provides us and everyone else with a
+      sustainable future.
+
+
+    </p>
+  </div>
+  <script>
+    //Onclick function of change button
+    document.getElementById("1").style.display = "block";
+
+    function Change() {
+      var p1 = document.getElementById("1");
+      var p2 = document.getElementById("2");
+      if (p1.style.display == "none") {
+        p1.style.display = "block";
+        p2.style.display = "none";
+      } else {
+        p1.style.display = "none";
+        p2.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>

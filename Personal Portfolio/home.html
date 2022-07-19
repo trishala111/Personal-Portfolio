@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trishala Prasai</title>
+  <link rel="stylesheet" href="CSS/External CSS/style.css">
+  <style>
+    /* hompage styles*/
+    #home::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: url("") no-repeat center center/cover;
+      height: 900px;
+      width: 100px;
+      z-index: -1;
+      opacity: .6;
+    }
+
+    /*styles of main content*/
+    .main {
+      display: flex;
+      flex-direction: column;
+      border: 1px transparent;
+      align-items: center;
+      position: absolute;
+      top: 45%;
+      right: 15%;
+    }
+
+    /*styles of heading*/
+    .headings {
+      font-family: century;
+      font-size: 3rem;
+      text-align: center;
+      margin: 40px 0px;
+    }
+
+    /*styles of headings hover*/
+    .headings:hover {
+      cursor: pointer;
+      background-color: pink;
+      color: black;
+      box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+      font-weight: initial;
+    }
+
+    /*styles of button*/
+    .bt {
+      padding: 10px 35px;
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+      outline: none;
+      transition: .6s ease;
+    }
+
+    /*styles of button hover*/
+    .bt:hover {
+      cursor: pointer;
+      background-color: pink;
+      color: black;
+      box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Navbar contents-->
+  <nav class="navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="HTML/cv.html">CV</a></li>
+      <li><a href="HTML/blog.html">Blog</a></li>
+      <li><a href="HTML/contact.html">Contact</a></li>
+      <li><a href="HTML/research.html">Research</a></li>
+    </ul>
+  </nav>
+  <!--Division for home-->
+  <div id="home">
+    <!--Division for main content-->
+    <div class="main">
+      <h1 class="headings">TRISHALA PRASAI</h1>
+      <button class="bt">
+        Welcome to my webpage<br>
+        (you can hover your cursor to see the difference)
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>

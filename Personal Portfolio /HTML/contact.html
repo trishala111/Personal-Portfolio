@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--Header of the webpage-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trishala Prasai</title>
+	<link rel="stylesheet" href="../CSS/External CSS/style.css">
+	<script src="../JS/script.js"></script>
+	<style>
+		/*styles of whole form*/
+		.con {
+			margin-left: 600px;
+			width: fit-content;
+			margin: auto;
+			margin-top: 10vw;
+			background-color: pink;
+			font-size: 35px;
+			border-radius: 10px;
+			padding: 50px;
+			padding-top: 30px;
+		}
+
+		/*style of p*/
+		p {
+			font-size: 20px;
+		}
+
+		/*style of form*/
+		form {
+
+			font-size: 20px;
+		}
+	</style>
+
+<body background="../Images/moon.jpeg">
+	</head>
+
+	<body>
+		<!--Navbar contents-->
+		<nav class="navbar">
+			<ul>
+				<li><a href="../home.html">Home</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="research.html">Research</a></li>
+			</ul>
+		</nav>
+
+		<body>
+			<nav>
+				<hr style="border-width: 1px;border-color:black;">
+				<!--Main contents of webpage-->
+				<!--Container for contact details and form-->
+				<div class="con">
+					<h1
+						style="color: black;text-align: center; background-color:rgb(196, 110, 196); border-radius:10px;">
+						<!--Division for Contact Me form-->
+						Contact Me</h1>
+					<form name="msgform" onsubmit="sent()">
+						<div class="form">
+							<table>
+								<tr>
+									<td>
+										Name:
+									</td>
+									<td>
+										<input type="text" name="name" id="name">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Email:
+									</td>
+									<td>
+										<input type="text" name="e-mail" id="e-mail">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Text:
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<textarea name="message" id="message" cols="30" rows="8"
+											placeholder="Text Here..."></textarea>
+									</td>
+								</tr>
+							</table>
+							<input type="submit" name="submit" value="Send">
+						</div>
+					</form>
+					<p>Email:trishalaprasai76@gmail.com</p>
+					<p>Address:Budanilkantha-10,Kathmandu</p>
+					<p>Contact No.:9813943991</p>
+					<p>Note:</p>
+					<p>You can mail me without hesitation.</p>
+				</div>
+
+			</nav>
+		</body>
+	</body>
+
+</html>

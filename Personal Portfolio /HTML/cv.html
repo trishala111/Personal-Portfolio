@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trishala Prasai</title>
+  <link rel="stylesheet" href="../CSS/External CSS/style.css">
+  <style>
+    /*styles of whole cv*/
+    .cv {
+      width: 70%;
+      margin: auto;
+
+    }
+
+    /*styles of print-area*/
+    .print-area {
+      height: 140px;
+      width: 958px;
+      background-color: rgb(77, 69, 79);
+      display: flex;
+      align-items: left;
+      position: relative;
+      margin-bottom: 0%;
+    }
+
+    /*styles of header image*/
+    .header img {
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+      left: 65px;
+      border: 5px solid white;
+      box-shadow: 3px 3px 10px rgba(5, 5, 5, 0.5);
+      opacity: 100%;
+      margin-left: 0px;
+    }
+
+    /*styles of header-text*/
+    .header-text {
+      color: white;
+      width: 60%;
+      margin-left: 250%;
+    }
+
+    /*styles of header-text h1*/
+    .header-text h1 {
+      font-size: 40px;
+      font-weight: normal;
+      width: 100px;
+    }
+
+    /*styles of header-text p*/
+    .header-text p {
+      font-size: 30px;
+      color: rgb(206, 161, 161);
+    }
+
+    /*style of content*/
+    .content {
+      display: flex;
+    }
+
+    /*styles of left-area*/
+    .left-area {
+      width: 25%;
+      background-color: rgb(216, 216, 216);
+      text-align: center;
+      padding: 5px;
+      padding-right: 20px;
+    }
+
+    /*styles of left-area contact*/
+    .left-area .contact {
+      margin-top: 100px;
+      padding: 0px;
+      margin-left: 0px;
+
+    }
+
+    /*styles of left-area contact h4*/
+    .contact h4 {
+      font-size: 20px;
+      font-weight: bolder;
+      margin: 10px 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /*styles of left-area contact h5*/
+    .contact h5 {
+      font-size: 18px;
+      margin: 1px 0;
+      font-weight: bold;
+      color: black;
+    }
+
+    /*stylesof left-area contact p*/
+    .contact p {
+      font-size: 15px;
+    }
+
+    /*style of skilss*/
+    .skills {
+      margin-top: 20px;
+    }
+
+    /*styles of skills h1*/
+    .skills h1 {
+      font-size: 20px;
+      font-weight: normal;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      color: black;
+    }
+
+    /*styles of bars*/
+    .bars {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0 20px;
+      padding: 0 20px;
+    }
+
+    /*styles of bars p*/
+    .bars p {
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    /*styles of bar span*/
+    .bars span {
+      display: block;
+      width: 100%;
+      height: 10px;
+      background-color: rgb(192, 191, 191);
+      margin-top: 10px;
+      border-radius: 10px;
+      position: relative;
+    }
+
+    /*styles of bars spam::before*/
+    .bar span::before {
+      position: absolute;
+      content: "";
+      width: 80%;
+      height: 80%;
+      background-color: rgb(118, 57, 57);
+      top: 50%;
+      left: 2px;
+      transform: translateY(-40%);
+      border-radius: 10px;
+    }
+
+    /*styles of right-area*/
+    .right-area {
+      width: 70%;
+      padding: 21px;
+      padding-top: 5px;
+      background-color: whitesmoke;
+    }
+
+    /*styles of right-area h1*/
+    .right-area h1 {
+      font-size: 35px;
+      font-weight: normal;
+      text-align: justify;
+      color: black;
+    }
+
+    /*styles of right-area p*/
+    .right-area h1 span {
+      margin-right: 30px;
+      font-size: 50px;
+      color: lightgray;
+    }
+
+    /*styles of right-area p*/
+    .right-area p {
+      padding-left: 0px;
+      text-align: justify;
+      word-break: break-all;
+      font-size: 17px;
+      color: black;
+      margin-top: 10px;
+    }
+
+    /*styles of edu h1*/
+    .edu h1 {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: justify;
+      color: black;
+    }
+
+    /*styles of edu h4*/
+    .edu h4 {
+      font-size: 18px;
+      margin: 0px;
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body background="../Images/moon.jpeg">
+  <!--Navbar contents-->
+  <nav class="navbar">
+    <ul>
+      <li><a href="../home.html">Home</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="research.html">Research</a></li>
+    </ul>
+  </nav>
+
+  <head>
+    <!--Division of cv-->
+    <div class="cv">
+      <div class="print-area">
+        <div class="header">
+          <img src="Cv.JPG"
+            style="width: 150px;height: 150px;border-radius: 150px;">
+          <div class="header-text">
+            <h1>TRISHALA PRASAI</h1>
+            <p>CV</p>
+          </div>
+        </div>
+      </div>
+      <!--Division of Content in left area-->
+      <div class="content">
+        <div class="left-area">
+          <div class="contact">
+            <h4>CONTACT</h4>
+            <h5>Phone</h5>
+            <p>9813943991</p>
+            <h5>Email</h5>
+            <p>trishalaprasai76@gmail.com</p>
+            <h5>Home</h5>
+            <p>Budanilkantha-10,Kathmandu</p>
+            <h4>Socials</h4>
+            <p>Twitter</p>
+            <p>twitter.com/__trishala</p>
+            <p>Snapchat</p>
+            <p>snapchat.com/p.trishala</p>
+            <p>Disord</p>
+            <p>discord.com/xø#8475</p>
+            <!--Division of Skills-->
+          </div>
+          <div class="skills">
+            <h1>SKILLS</h1>
+            <!--Division of bars-->
+            <div class="bars">
+              <div class="bar">
+                <p>Leader Ship</p>
+                <span></span>
+              </div>
+
+              <class class="bar">
+                <p>Singing</p>
+                <span></span>
+              </class>
+
+              <div class="bar">
+                <p>Time Management</p>
+                <span></span>
+              </div>
+
+              <div class="bar">
+                <p>Socialize</p>
+                <span></span>
+              </div>
+
+              <div class="bar">
+                <p>Good Hanwriting</p>
+                <span></span>
+              </div>
+              <div class="bar">
+                <p>ECA</p>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Divison of right area profile-->
+        <div class="right-area">
+          <div class="Profile">
+            <h1>Profile</h1>
+            <p> I am a student and currently studying at Islington College.I joined from this year(2021).I am studying
+              B.(Hons) in Computing.
+              I like making web pages of my own ideas and try to learn diffrent new things daily.
+              I have many intrests,singing,drawing ,planting are few of them which i do at free times
+              I like listing to peoples problem and try to slove it if they have one.
+              </h1>
+            </p>
+          </div>
+          <!--Division of education-->
+          <div class="edu">
+            <h1>Date of Birth</h1>
+            <h4>2004-01-15AD</h4>
+            <h4>2060-10-02BS</h4>
+            <h1>School</h1>
+            <h4>Daffodil Public School</h4>
+            <h1>HighSchool</h1>
+            <h4>Uniglobe High Secondary School</h4>
+            <h1>University</h1>
+            <h4>Islington College</h4>
+            <h1>Languages</h1>
+            <h4>English</h4>
+            <h4>Nepali</h4>
+            <h4>Hindi</h4>
+            <h1>Experiences</h1>
+            <h4>I was captain of IT department from my class at high school.I used to manage diffrent things when i was
+              captain ,they were great moments and i learned many things from that.I have participated in many
+              compitions like basketball,table tennis,futsal,singing compititions which was also great experiences.One
+              of the experience that changed me the most was MUN. </h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+</body>
+
+</html>
